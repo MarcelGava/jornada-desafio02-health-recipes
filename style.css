@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Spectral', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 86px;
+  text-align: center;
+
+  color: #151718;
+
+  background-color: #151718;
+  background-image: url(./images/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  display: grid;
+  justify-content: center;
+  margin: 200px auto 390px;
+}
+
+h1 {
+  margin-bottom: 4px;
+  color: #ebf1fb;
+  font-family: 'Beth Ellen', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 120px;
+}
+
+span {
+  color: #5eead4;
+}
+
+p {
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #ebf1fb;
+}
+
+.links {
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.links .link1 a {
+  color: #ebf1fb;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.links .link2 a {
+  font-size: 20px;
+  line-height: 24px;
+  background: #5eead4;
+  border-radius: 8px;
+  width: 202px;
+  height: 56px;
+  color: #0b0c0e;
+
+  padding: 16px 32px;
+  text-decoration: none;
+}
